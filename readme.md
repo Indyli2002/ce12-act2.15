@@ -1,4 +1,4 @@
-##Overview
+## Overview
 
 This lab explores how AWS Secrets Manager can be used to securely store and retrieve secrets such as application credentials. Instead of embedding sensitive values in code or configuration files, applications retrieve secrets dynamically at runtime using IAM permissions.
 
@@ -66,7 +66,7 @@ prod/cart-service/credentials
 
 The ARN format for Secrets Manager is:
 
-arn:aws:secretsmanager:<region>:<account-id>:secret:<secret-name>
+"arn:aws:secretsmanager:<region>:<account-id>:secret:<secret-name>"
 
 Example derived ARN:
 
